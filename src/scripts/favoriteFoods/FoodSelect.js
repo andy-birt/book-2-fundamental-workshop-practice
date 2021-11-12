@@ -2,7 +2,7 @@ import { GuestList } from "../guests/GuestList.js";
 import { getFoods } from "./FavoriteFoodsDataProvider.js";
 
 const FoodOptions = f => {
-  return f.map( dish => `<option value="${f.id}">${dish.name}</option>`);
+  return f.map( dish => `<option value="${dish.name}">${dish.name}</option>`);
 }
 
 export const FoodSelect = () => {
